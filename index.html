@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flags of the World</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container" id="header-container">
+        <div
+          class="d-flex flex-column align-items-center justify-content-center gap-4"
+        >
+          <h1 class="mt-5 mb-4">Flags of the World</h1>
+        </div>
+        <div class="row justify-content-center align-items-center mx-2 mt-3">
+            <div class="col col-lg-6 my-2">
+                <input type="text" id="input" class="form-control">
+            </div>
+            <div class="col col-lg-2 text-center">
+                <button class="btn btn-primary" id="search">Find</button>
+                <button class="btn btn-danger" id="clear">Clear</button>
+            </div>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="row justify-content-center mt-5 mx-2" id="country-container">
+            <!-- <div class="card col-12 col-sm-6 col-lg-3">
+                <img src="" class="card-img-top border border-secondary" alt=""> 
+                <div class="card-body">
+                    <h5 class="card-title">Unites States</h5>
+                    <p class="card-text">Americas</p>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span><i class="fas fa-2x fa-landmark mx-3"></i>D.C.</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span><i class="fas fa-lg fa-users mx-3"></i>329.48 M</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span><i class="fas fa-lg fa-comments mx-3"></i>English</span>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
